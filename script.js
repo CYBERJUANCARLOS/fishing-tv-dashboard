@@ -20,7 +20,7 @@ async function loadTicker() {
   const data = await response.json();
 
   const ticker = document.getElementById("bottomTicker");
-  ticker.innerHTML = data.join(" · ");
+  ticker.innerHTML = data.join(" &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; ");
 
   data.forEach(text => {
     ticker.innerHTML += `<div class="tickerItem">${text}</div>`;
