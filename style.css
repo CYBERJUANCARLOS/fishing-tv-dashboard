@@ -8,7 +8,7 @@ body {
 
 .screen {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr;
   height: 92vh;
 }
 
