@@ -19,8 +19,8 @@ async function loadTicker() {
   const response = await fetch("ticker.json");
   const data = await response.json();
 
-  const ticker = document.getElementById("tickerContent");
-  ticker.innerHTML = "";
+  const ticker = document.getElementById("bottomTicker");
+  ticker.innerHTML = data.join(" · ");
 
   data.forEach(text => {
     ticker.innerHTML += `<div class="tickerItem">${text}</div>`;
