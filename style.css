@@ -9,11 +9,12 @@ body {
 .screen {
   display: grid;
   grid-template-columns: 1fr;
-  height: 92vh;
+  height: 100vh;
 }
 
 main {
   padding: 40px;
+  padding-bottom: 130px;
 }
 
 h1 {
@@ -35,57 +36,35 @@ h2 {
   font-size: 30px;
 }
 
-aside {
-  background: #071e2e;
-  padding: 25px;
-  border-left: 3px solid #00c2ff;
-}
-
-aside h3 {
-  font-size: 32px;
-  color: #00c2ff;
-}
-
-.ticker {
-  height: 75vh;
-  overflow: hidden;
-  position: relative;
-}
-
-#tickerContent {
-  position: absolute;
-  animation: scrollUp 25s linear infinite;
-}
-
-.tickerItem {
-  font-size: 26px;
-  margin-bottom: 35px;
-  background: #12344d;
-  padding: 15px;
-  border-radius: 10px;
-}
-
 .bottom {
-  height: 8vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 90px;
   background: #00c2ff;
   color: #001018;
-  font-size: 30px;
+  overflow: hidden;
   display: flex;
   align-items: center;
+  z-index: 999;
+}
+
+.bottom-track {
+  display: inline-block;
   white-space: nowrap;
-  overflow: hidden;
+  padding-left: 100vw;
+  font-size: 34px;
+  font-weight: bold;
+  animation: ticker 28s linear infinite;
 }
 
-.bottom span {
-  animation: scrollLeft 18s linear infinite;
-}
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
 
-@keyframes scrollUp {
-  from { top: 100%; }
-  to { top: -100%; }
-}
-
-@keyframes scrollLeft {
-  from { transform: translateX(100vw); }
-  to { transform: translateX(-100%); }
+  to {
+    transform: translateX(-100%);
+  }
 }
