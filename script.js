@@ -1,7 +1,7 @@
 var fishingData = [
   {
-    titel: "JETZT ANGELN",
-    text: "Bester Spot: Schilfkante am See<br>Zielfisch: Hecht / Barsch<br>Beste Zeit: 19:00–22:00<br>Köder: Spinner oder Gummifisch<br>Fangchance: Hoch"
+    titel: "ANGEL TABELLE",
+    text: "1. CHRISTIAN GLOMB | 14 FISCHE<br>2. MARTIN TUMULKA | 12 FISCHE<br>3. OLI | 11 FISCHE"
   },
   {
     titel: "WETTERLAGE",
