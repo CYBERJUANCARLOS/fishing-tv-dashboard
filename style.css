@@ -7,9 +7,8 @@ body {
 }
 
 .screen {
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 100vh;
+  width: 100%;
+  height: calc(100vh - 90px);
 }
 
 main {
