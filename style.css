@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background: #06141f;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 92vh;
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+h2 {
+  color: #8fd3ff;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #10283a;
+  border-left: 8px solid #00c2ff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  font-size: 30px;
+}
+
+aside {
+  background: #071e2e;
+  padding: 25px;
+  border-left: 3px solid #00c2ff;
+}
+
+aside h3 {
+  font-size: 32px;
+  color: #00c2ff;
+}
+
+.ticker {
+  height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#tickerContent {
+  position: absolute;
+  animation: scrollUp 25s linear infinite;
+}
+
+.tickerItem {
+  font-size: 26px;
+  margin-bottom: 35px;
+  background: #12344d;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.bottom {
+  height: 8vh;
+  background: #00c2ff;
+  color: #001018;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bottom span {
+  animation: scrollLeft 18s linear infinite;
+}
+
+@keyframes scrollUp {
+  from { top: 100%; }
+  to { top: -100%; }
+}
+
+@keyframes scrollLeft {
+  from { transform: translateX(100vw); }
+  to { transform: translateX(-100%); }
+}
