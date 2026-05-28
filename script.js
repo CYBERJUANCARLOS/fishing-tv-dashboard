@@ -1,7 +1,7 @@
 var fishingData = [
   {
-    titel: "ANGEL TABELLE",
-    text: "1. CHRISTIAN GLOMB | 14 FISCHE<br>2. MARTIN TUMULKA | 12 FISCHE<br>3. OLI | 11 FISCHE"
+    titel: "AKTUELLES",
+    text: "TOMEK HAT MOTOR KAPPUT GEMACHT | GLOMBI HATS REPARIERT<br>JETZ FISH HQ AUF DEIN HANDY AUF https://bit.ly/FHQL"
   },
   {
     titel: "WETTERLAGE",
