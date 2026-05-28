@@ -5,7 +5,7 @@ var fishingData = [
   },
   {
     titel: "WETTERLAGE",
-    text: "TOP TEMPERATUR: 20ºC | 15:00<br>GEZEITEN: HOCH: 14:00 | NIEDRIG: 19:00"
+    text: "TOP TEMPERATUR: 20ºC | 15:00<br>WASSER TEMPERATUR: 13º-15ºC<br>GEZEITEN: HOCH: 14:00 | NIEDRIG: 19:00"
   },
   {
     titel: "BESTE ZEITE",
