@@ -5,7 +5,7 @@ var fishingData = [
   },
   {
     titel: "WETTERLAGE",
-    text: "Bewölkt, leichter Wind. Gute Bedingungen für Hecht in flachen Bereichen."
+    text: "TOP TEMPERATUR: 20ºC | 15:00<br>GEZEITEN: HOCH: 14:00 | NIEDRIG: 19:00"
   },
   {
     titel: "BESTE ZEITE",
@@ -14,7 +14,7 @@ var fishingData = [
 ];
 
 var tickerData = [
-    "HECHT (LUCIO) 28/05 - 05:00 & 18:00",
+  "HECHT (LUCIO) 28/05 - 05:00 & 18:00",
   "BARSCH (PERCA EUROPEA) 28/05 - 18:00 & 21:00",
   "ZANDER (LUCIO PERCA) 28/05 - 11:00 & 19:00-20:00",
   "MEIESTE FISCHE GEFANGEN: CHRISTIAN 14 FISCHE",
