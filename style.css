@@ -7,8 +7,10 @@ body {
 }
 
 .screen {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   height: calc(100vh - 90px);
+  width: 100%
 }
 
 main {
@@ -66,4 +68,34 @@ h2 {
   to {
     transform: translateX(-100%);
   }
+}
+
+.leaderboard {
+  padding:35px 25px;
+  border-left: 4px solid #00c2ff;
+  background: rgba (5, 20, 35, 0.65);
+}
+
+.leaderboard h3 {
+  color: #00c2ff;
+  font-size: 34px;
+  margin-top: 0;
+}
+
+.leader {
+  background: rgba(16, 40, 58, 0.92);
+  padding: 18px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.leader .rank {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.leader .fish {
+  color: #8fd3ff;
 }
