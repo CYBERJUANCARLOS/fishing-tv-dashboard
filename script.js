@@ -8,8 +8,8 @@ var fishingData = [
     text: "Bewölkt, leichter Wind. Gute Bedingungen für Hecht in flachen Bereichen."
   },
   {
-    titel: "SPOT-TIPP",
-    text: "Erst flache Uferzonen testen, danach tiefere Kanten absuchen."
+    titel: "BESTE ZEITE",
+    text: "HECHT (LUCIO) 28/05 - 05:00 & 18:00<br>BARSCH (PERCA EUROPEA) 28/05 - 18:00 & 21:00<br>ZANDER (LUCIO PERCA) 28/05 - 11:00 & 19:00-20:00"
   }
 ];
 
